@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/index.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	
+	<!-- Modal dialog-->
+	<div class="modal fade" id="modal-dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Symbol Selection</h4>
+				</div>
+				<div class="modal-body">
+					<h5>Please select your symbol</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">X</button>
+					<button type="button" class="btn btn-primary select-o">O</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page Contents-->
+	<div class="main-container">
+		<div class="placeholder">
+		
+		</div>
+		<div class="container title-container">
+			<h2>Tic Tac Toe</h2>
+		</div>
+
+		<div class="container box-container">
+			<table class="box">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="container result-container">
+			<h2 id="result-msg"></h2>
+		</div>
+	</div>
+
+</body>
+</html>
