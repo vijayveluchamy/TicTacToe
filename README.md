@@ -1,3 +1,3 @@
 # TicTacToe
 
-An Unbeatable TicTacToe implemented by jQuery
+An Unbeatable TicTacToe implemented by Minimax Algorithm
